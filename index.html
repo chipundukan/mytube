@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MyTube</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo">MyTube</div>
+<input id="search" type="text" placeholder="Search">
+<button onclick="searchVideos()">Search</button>
+<a href="upload.html"><button>Upload Video</button></a>
+</header>
+
+<div class="container">
+
+<div class="sidebar">
+<p>🏠 Home</p>
+<p>🔥 Trending</p>
+<p>📺 Subscriptions</p>
+<p>📚 Library</p>
+</div>
+
+<div class="videos" id="videoList"></div>
+
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+<script src="comments.js"></script>
+</body>
+</html>
